@@ -1,0 +1,112 @@
+.foto {
+    width: 300px;
+}
+
+body {
+    background-color: #f0ffff;
+    font-size: 1.3rem;
+    color: rgb(34, 31, 32);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nada {
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nada:hover {
+    background: rgb(20, 3, 1);
+}
+
+nav {
+    background: #99FEFF;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+body {
+    background-image: url("1225.jpg");
+}
+
+.padre {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.boton {
+    background: salmon;
+    color: white;
+    padding: 10px 0px;
+    border: 2px solid white;
+    display: none;
+}
+
+aside {
+    background-color: BLUE;
+    width: 1880PX;
+    height: 150PX;
+}
+
+.HP {
+    font-size: 60%;
+    padding: 40px 300px;
+    color: White;
+}
+
+@media(max-width: 1070px) {
+    .columna {
+        width: 45%;
+        margin-bottom: 50%;
+    }
+    h1 {
+        font-size: 300%;
+        padding: 0px 300px;
+        background: salmon;
+    }
+}
+
+@media(max-width: 600px) {
+    .columna {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+    .nada {
+        margin: 8px;
+    }
+    .foto {
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+    }
+    .foto {
+        width: 700px;
+    }
+    .boton {
+        display: inline-block;
+    }
+    .desapare {
+        display: 0px;
+    }
+}

@@ -1,0 +1,145 @@
+body {
+    background-color: #f0ffff;
+}
+
+.nada {
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nada:hover {
+    background: rgb(20, 3, 1);
+}
+
+nav {
+    background: #99FEFF;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 700%;
+    padding: 0px 700px;
+    background: salmon;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+video {
+    font-size: 5%;
+    padding: 100px 0px;
+    margin: 0px 0px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.una {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tex-center {
+    text-align: center
+}
+
+.columna {
+    margin: 10PX;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.precio {
+    font-size: 50px;
+    color: #00dac7
+}
+
+.btn-precio {
+    background: rgb(197, 100, 100);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-precio:hover {
+    background: rgb(37, 37, 37);
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(34, 31, 32);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.letra {
+    font-size: 0.7rem;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.foto {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media(max-width: 1070px) {
+    .columna {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 300%;
+        padding: 0px 300px;
+        background: salmon;
+    }
+}
+
+@media(max-width: 600px) {
+    .columna {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+    .nada {
+        margin: 8px;
+    }
+    .foto {
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+    }
+    .foto {
+        width: 700px;
+    }
+    .boton {
+        display: inline-block;
+    }
+    .desapare {
+        display: 0px;
+    }
+}
